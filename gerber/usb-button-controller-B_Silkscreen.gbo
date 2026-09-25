@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,10.0.6*
-G04 #@! TF.CreationDate,2026-09-25T09:34:45+03:00*
-G04 #@! TF.ProjectId,dof buton,646f6620-6275-4746-9f6e-2e6b69636164,rev?*
+G04 #@! TF.CreationDate,2026-09-25T16:03:04+03:00*
+G04 #@! TF.ProjectId,usb-button-controller,7573622d-6275-4747-946f-6e2d636f6e74,rev?*
 G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Soldermask,Bot*
-G04 #@! TF.FilePolarity,Negative*
+G04 #@! TF.FileFunction,Legend,Bot*
+G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.6) date 2026-09-25 09:34:45*
+G04 Created by KiCad (PCBNEW 10.0.6) date 2026-09-25 16:03:04*
 %MOMM*%
 %LPD*%
 G01*
@@ -16,6 +16,7 @@ G04 APERTURE LIST*
 %ADD12O,1.600000X1.200000*%
 %ADD13C,2.400000*%
 G04 APERTURE END LIST*
+%LPC*%
 D10*
 G04 #@! TO.C,USB1*
 X171882500Y-95660000D03*
@@ -35,4 +36,5 @@ X201676000Y-107696000D03*
 X201676000Y-102616000D03*
 X201676000Y-97536000D03*
 G04 #@! TD*
+%LPD*%
 M02*

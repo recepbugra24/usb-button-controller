@@ -48,7 +48,10 @@ usb-button-controller.kicad_sch     schematic
 usb-button-controller.kicad_pcb     board layout
 usb-button-controller.kicad_pro     project file
 gerber/                 fabrication output
-  *.gbr                 gerber layers
+  *.gtl *.gbl           copper layers
+  *.gts *.gbs           solder mask
+  *.gto *.gbo           silkscreen
+  *.gm1                 board outline
   *.drl                 drill file
   BOM_jlcpcb.csv        bill of materials with LCSC part numbers
   usb-button-controller-all-pos.csv component placement

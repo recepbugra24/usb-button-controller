@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "10.0.6"
     },
-    "CreationDate": "2026-09-25T09:34:45+03:00"
+    "CreationDate": "2026-09-25T16:03:04+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "dof buton",
-      "GUID": "646f6620-6275-4746-9f6e-2e6b69636164",
+      "Name": "usb-button-controller",
+      "GUID": "7573622d-6275-4747-946f-6e2d636f6e74",
       "Revision": "rev?"
     },
     "Size": {
@@ -34,37 +34,37 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "dof buton-F_Cu.gbr",
+      "Path": "usb-button-controller-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "dof buton-B_Cu.gbr",
+      "Path": "usb-button-controller-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "dof buton-F_Silkscreen.gbr",
+      "Path": "usb-button-controller-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "dof buton-B_Silkscreen.gbr",
+      "Path": "usb-button-controller-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "dof buton-F_Mask.gbr",
+      "Path": "usb-button-controller-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "dof buton-B_Mask.gbr",
+      "Path": "usb-button-controller-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "dof buton-Edge_Cuts.gbr",
+      "Path": "usb-button-controller-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

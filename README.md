@@ -52,7 +52,6 @@ gerber/                 fabrication output
   *.drl                 drill file
   BOM_jlcpcb.csv        bill of materials with LCSC part numbers
   usb-button-controller-all-pos.csv component placement
-simulation/             ngspice model of the debounce filter
 ```
 
 ## Manufacturing
@@ -97,9 +96,6 @@ firmware has locked up the USB stack, in which case hold SW1 and replug.
 - DRC clean, zero unconnected items
 - Schematic parity between board and schematic confirmed
 - Netlist reviewed pin by pin against the CH552G datasheet
-- Debounce filter validated in ngspice: a 40 kHz contact chatter on the input
-  settles to a smooth output within roughly 0.3 ms, matching 3τ for the
-  designed 0.1 ms time constant
 
 Not yet verified in hardware — no board has been built from these files.
 

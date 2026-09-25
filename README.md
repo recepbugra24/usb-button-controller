@@ -10,6 +10,10 @@ removes the crystal, load capacitors, reset network and programming header that
 a comparable AVR design would need, and cuts the controller cost from roughly
 $4.70 to $0.31 per unit.
 
+![Isometric 3D view of the board](docs/isometric-3d.png)
+
+An interactive version is in `docs/3d-viewer.html` (open it in a browser).
+
 ## Specifications
 
 | | |
@@ -47,6 +51,7 @@ USB pair is kept unbroken to hold the differential impedance steady.
 usb-button-controller.kicad_sch     schematic
 usb-button-controller.kicad_pcb     board layout
 usb-button-controller.kicad_pro     project file
+docs/                   isometric render and interactive 3D viewer
 gerber/                 fabrication output
   *.gtl *.gbl           copper layers
   *.gts *.gbs           solder mask

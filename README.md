@@ -52,7 +52,7 @@ gerber/                 fabrication output
   *.drl                 drill file
   BOM_jlcpcb.csv        bill of materials with LCSC part numbers
   usb-button-controller-all-pos.csv component placement
-buton_filtre_sim/       ngspice model of the debounce filter
+simulation/             ngspice model of the debounce filter
 ```
 
 ## Manufacturing

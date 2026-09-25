@@ -44,14 +44,14 @@ USB pair is kept unbroken to hold the differential impedance steady.
 ## Repository layout
 
 ```
-dof buton.kicad_sch     schematic
-dof buton.kicad_pcb     board layout
-dof buton.kicad_pro     project file
+usb-button-controller.kicad_sch     schematic
+usb-button-controller.kicad_pcb     board layout
+usb-button-controller.kicad_pro     project file
 gerber/                 fabrication output
   *.gbr                 gerber layers
   *.drl                 drill file
   BOM_jlcpcb.csv        bill of materials with LCSC part numbers
-  dof buton-all-pos.csv component placement
+  usb-button-controller-all-pos.csv component placement
 buton_filtre_sim/       ngspice model of the debounce filter
 ```
 

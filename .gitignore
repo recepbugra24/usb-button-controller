@@ -1,0 +1,30 @@
+# KiCad backups and autosave
+*-backups/
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*.000
+*.bak
+
+# KiCad lock files
+~*.lck
+*.lck
+
+# Editor / restore history
+.history/
+_restore_backup_*/
+
+# Generated netlists (regenerate from schematic)
+*.net
+*.xml
+
+# Archives
+*.rar
+*.zip
+*.7z
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
